@@ -1,0 +1,32 @@
+div {
+    height: 100px;
+    width: 100px;
+}
+
+#b {
+    border: 2px solid white;
+    background-color: white;
+    position: absolute;
+    left: 30px;
+    top: 40px;
+    z-index: 1;
+}
+
+#c {
+    border: 2px solid green;
+    background-color: green;
+    left: 50px;
+    top: 60px;
+    width: 500px;
+    height: 500px;
+    position: relative;
+}
+
+#a {
+    border: 2px solid white;
+    background-color: white;
+    position: absolute;
+    left: 350px;
+    top: 350px;
+    z-index: 2;
+}
